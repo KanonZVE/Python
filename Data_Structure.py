@@ -72,3 +72,6 @@ lenguajes_tupla = ("java", "HTML", "Python")
 print(lenguajes_tupla)
 
 lenguajes_tupla[0] = "python" #da error por lo antes mecnionado
+
+frutas = "naranja", "fresa", "plátano"
+print (type(frutas))
