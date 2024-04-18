@@ -1,5 +1,5 @@
-"""store the data in pairs, lets call them keys and values, each values is a element
-to correspon an a key.
+"""store the data in pairs, lets call them keys and values, each value is an element
+that corresponds a key.
 In other programing languages they are known as a JSON and Hashmaps
 We definen in to {} and separate the key an the value with : the elements
 must be separate with ,"""
@@ -22,4 +22,5 @@ The keys can be whatever type of you want, but most of the time they are
 text type"""
 language ["features"] = ["simple", "easy", "awesome"]
 print (language)
+#with values we can get only the list of elements, without the keys.
 print (language.values())

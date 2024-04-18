@@ -12,4 +12,7 @@ if a:
 
 if type(b) is bool:
     print ("B is boolean")
+else:
+    print ("B is other type of data")
+
 
