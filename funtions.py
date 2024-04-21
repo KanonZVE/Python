@@ -1,10 +1,12 @@
 """in python are 2 types of funtions:
 *Built-In Funtions
 *User-Defined Funtions"""
-
+LAST_NAME = "Sanchez"
 def funtion():
     print("my first funtion")
-    name = "Ana"
+    name = "Joan"
+    print(name,LAST_NAME)
 
 funtion()
-print(name)
+
+"""the declare variable into the funtion can't be use offside of it"""
