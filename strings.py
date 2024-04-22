@@ -22,3 +22,29 @@ print(my_tab_string)
 my_scape_string = "\\tThis is a scape  \\n String"
 print(my_scape_string)
 
+name = "Joan"
+surname = "Sanchez"
+age = 33
+
+#format
+
+print("My name is {} {} and i'm {} years old" .format(name, surname, age))
+print("My name is %s %s and i'm %d years old" %(name, surname, age))
+print(f"My name is {name} {surname} and i'm {age} years old")
+
+#funtions
+
+language = "python"
+
+print(language.capitalize())
+print(language.upper())
+print(language.count("t"))
+print(language.isnumeric())
+print("1".isnumeric())
+print(language.lower())
+print(language.lower().isupper)
+print(language.reverse())
+
+
+
+
