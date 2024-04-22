@@ -43,7 +43,7 @@ print(language.isnumeric())
 print("1".isnumeric())
 print(language.lower())
 print(language.lower().isupper)
-print(language.reverse())
+
 
 
 
