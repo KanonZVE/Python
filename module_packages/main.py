@@ -1,7 +1,8 @@
 from figures.square import square_area, square_perimeter
 from figures.circle import circle_area, circle_perimeter
-
+#variables
 side = 4
+radius = 5
 
 square = {
     "side" : side,
@@ -11,12 +12,11 @@ square = {
 
 print("square: ", square)
 
-radius = 5
-
 circle = {
     "radius" : radius,
     "area" : circle_area(radius),
     "perimeter" : circle_perimeter(radius)
 }
 
-print("circle: ", circle)
+
+print("circle: ", circle) 
